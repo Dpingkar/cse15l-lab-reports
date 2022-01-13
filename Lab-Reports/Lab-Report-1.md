@@ -11,7 +11,7 @@ Open this [link](https://sdacs.ucsd.edu/~icc/index.php) to get the course specif
 
 Input **ssh cse15Lwi22azz@ieng6.ucsd.edu** into your terminal and input your password when asked.
 You will see this once you are successfull:
-![Image](Photos/ssh-success.jpg)<br/>
+![Image](test.jpg)<br/>
 To exit the remote desktop, input **exit** or **logout**
 
 **3. Commands to know**<br/>
@@ -27,6 +27,6 @@ To exit the remote desktop, input **exit** or **logout**
 **Photo of ouput of ls and pwd**<br/>
 
 **4. SCP**<br/>
-dwa
+
 
 
