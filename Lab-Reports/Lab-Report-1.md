@@ -1,4 +1,4 @@
-*Lab Report detailing how to remotely connect to edit and copy files* <br/>
+*Lab Report detailing how to remotely connect to a remote dektop to edit and copy files* <br/>
 
 **1. Install and get certain things**<br/>
 1. **VSCODE**<br/>
@@ -32,12 +32,14 @@ To exit the remote desktop, input **exit** or **logout**
 ![image](../Photos/commands.png)
 
 **4. SCP**<br/>
-scp is a command to copy files from one location to another, in this case from your desktop to a remote desktop.
-The syntax top copy to the ucsd remote desktop is:<br/>
+scp is a command to copy files from one location to another, in this case, from your desktop to a remote desktop.
+The syntax top copy to the UCSD remote desktop is:<br/>
 **scp filename cse15lwi22azz@ieng6.ucsd.edu:~/**<br/>
 The system will then ask for password and a successfull copy will show:<br/>
 
-**5. SSH Key**
+**5. SSH Key**<br>
+Creates a key so password will not need to be inputted everytime we try to access the remote desktop.
+
 
 
 
