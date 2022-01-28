@@ -44,13 +44,16 @@ Creates a key so password will not need to be inputted everytime we try to acces
 Input `ssh-keygen` and a few prompts will appear,enter nothing for default setup for each prompt and then a key will be created.
 ![Image](../Photos/ssh-key.png)
 
-**6. Extra Tips for Remote Access**<br/>
+**6. Extra Tips**<br/>
 1. Run commands on server then exit<br/>
   -Use quotation marks with a command (" ") after `ssh cs15lwi22azz@ieng6.ucsd.edu` to run the command on the remote desktop<br/>
 2. Semicolons ( `;` ) can be used to combine multiple command in a single line<br/>
 3. Up arrow will go through previous commands that you have put in before
 ![Image](../Photos/extra.png)
 
+***Reasons to use***<br/>
+By using these tips we could reduce the amount of time,effort and keystrokes needed to execute and test programs.<br/> Keystrokes, are the amount of times you will press a key on your keyboard.<br/>
+An example would be by using the up arrow. If it would usually require 26 bkeystrokes to test a program by typing `javac test.java` and `java test` multiple times (including pressing enter), it would only take six keystrokes each time after the initial run. As you would only need to do up,up,enter,up,up then enter to compiile and run the same program.
 
 
 
