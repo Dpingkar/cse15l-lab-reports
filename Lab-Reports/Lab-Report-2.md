@@ -17,6 +17,7 @@ The output is supposed to be an empty array, as in **test3.md**, the `[ ]` and t
 
 **Third Changes**
 * Link to tester: [test4.md](https://github.com/Dpingkar/markdown-parse/blob/main/test4.md)
-* *Change Log*
-* *Symptom*
-* *Explanation*: 
+* *Change Log*![Change Log](..\Photos\LR2\ChangeLog3.png)
+* *Symptom*![Symptom](..\Photos\LR2\Symptom3.png)
+* *Explanation* :<br/>
+MardownParse is supposed to only retrieve links, not images, so before the changes, as the syntax for images and links are similar, MarkdownParse would also get the image. Thus when tested, would also print out the location and name of the image. With the changes, the `!` before `[` will be detected and the next string within `( )` will not be valid.
