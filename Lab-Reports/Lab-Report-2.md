@@ -16,3 +16,7 @@ The output is supposed to be an empty array, as in **test3.md**, the `[ ]` and t
 <br/>
 
 **Third Changes**
+* Link to tester: [test4.md](https://github.com/Dpingkar/markdown-parse/blob/main/test4.md)
+* *Change Log*
+* *Symptom*
+* *Explanation*:
