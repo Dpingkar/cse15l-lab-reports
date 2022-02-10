@@ -1,5 +1,4 @@
-*Lab report detailing how to copy whole directories from the home desktop
-to the remote desktop*</br>
+*Lab report detailing how to copy whole directories from the home desktop to the remote desktop*</br>
 
 **Using `scp -r`**</br>
 Syntax for this command is </br>
