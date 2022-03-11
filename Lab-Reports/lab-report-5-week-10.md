@@ -14,11 +14,11 @@
 * *Class Code Test results*<br>![MD513](../Photos/LR5/MD-513.png)
 * *Expected output based on preview*<br>![Expected513](../Photos/LR5/513-Expected.png)
 
-* Own output is incorrect based on the preview as the expected output should be `[/uri]`
+* Own output is incorrect based on the preview as the expected output should be `[/uri]` Class code is correct
 
 * *To Fix*<br>
-For my own code, the bug is from the fact that my own code does not have any conditions in regards to ticks. The expected output is located in between the two ticks of the code, which would mean that a condition has to be set that a link between two ticks would be prioritised over other conditions.
-Code is shown below:<br>![Own](../Photos/LR5/Own.png)
+Error:<br>![Own](../Photos/LR5/Mistake.jpg)\
+This causes an Error as in a situation where `!` doesn't exist and the first open bracket is at index 0,  the condition will be met and the link would not be added into the arrayu list. To fix this, we can add another condition to specify that if nextOpenBracket is equal to 0, we can ignore the `!` condtion, by putting the `!`in an else statement if nextOpenBracket is not 0.
 
 **Test 324.md**<br>
 * *Own Code Test results*<br>![Own342](../Photos/LR5/Own-Code-342.png)
@@ -28,5 +28,5 @@ Code is shown below:<br>![Own](../Photos/LR5/Own.png)
 * Neither outputs are correct based on the preview as the expected output should be `[]`
 
 * *To Fix*<br>
-For my own code, the bug is from the fact that my own code does not have any conditions in regards to ticks. The expected output is located in between the two ticks of the code, which would mean that a condition has to be set that a link between two ticks would be prioritised over other conditions.
+For my own code, the bug is from the fact that my own code does not have any conditions in regards to ticks. The expected output is located in around and between the two ticks of the code, which would mean that a condition has to be set that code between two ticks would be prioritised over other conditions.
 Code is shown below:<br>![Own](../Photos/LR5/Own.png)
